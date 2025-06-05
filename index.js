@@ -12,7 +12,6 @@ app.get('/', async (req, res) => {
       <html>
         <head><title>犬の画像</title></head>
         <body style="text-align:center; font-family:sans-serif;">
-          <h1>ランダムな犬の画像</h1>
           <img src="${dogImageUrl}" alt="犬" style="max-width: 90%; height: auto;" />
         </body>
       </html>
